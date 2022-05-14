@@ -1,6 +1,6 @@
 .home_grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.2fr 1fr;
   gap: 2.5rem;
 }
 

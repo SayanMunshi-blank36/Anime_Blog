@@ -1,5 +1,5 @@
 .eachBlogTemp {
   display: grid;
-  grid-template-columns: 0.9fr 1.5fr;
+  grid-template-columns: 1.1fr 1.6fr;
   gap: 1.5rem;
 }
