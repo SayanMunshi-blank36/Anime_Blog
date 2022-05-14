@@ -4,10 +4,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        bangers: ["Bangers"],
+        montserrat: ["Montserrat"],
+      },
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["halloween"],
+    themes: ["halloween", "winter"],
   },
 };

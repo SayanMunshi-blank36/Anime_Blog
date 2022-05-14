@@ -24,7 +24,7 @@ const Navbar = () => {
             </label>
             <ul
               tabIndex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 rounded-box w-72 bg-base-300 shadow-lg"
+              className="menu menu-compact dropdown-content mt-3 p-2 rounded-box w-72 bg-base-300 shadow-lg font-montserrat font-semibold"
             >
               <li>
                 <a>Anime</a>
@@ -71,7 +71,7 @@ const Navbar = () => {
           <a className="btn btn-ghost normal-case text-xl">AniLog</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal p-0">
+          <ul className="menu menu-horizontal p-0 font-montserrat font-semibold">
             <li>
               <a>Anime</a>
             </li>
