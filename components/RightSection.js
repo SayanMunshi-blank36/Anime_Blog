@@ -7,7 +7,7 @@ import MoreBlogs from "./MoreBlogs";
 const RightSection = () => {
   return (
     <section className="my-8 px-4">
-      <div className="ad text-center bg-secondary h-72 mb-4">Ad</div>
+      <div className="ad text-center bg-secondary h-72 mb-16">Ad</div>
       <div className="content_display">
         <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
           Popular
@@ -15,7 +15,7 @@ const RightSection = () => {
         <RightSideBlog />
         <RightSideBlog />
         <RightSideBlog />
-        <div className="ad text-center bg-secondary h-72 mb-4">Ad</div>
+        <div className="ad text-center bg-secondary h-72 mb-16">Ad</div>
         <RightSideBlog />
         <RightSideBlog />
         <RightSideBlog />
@@ -31,7 +31,7 @@ const RightSection = () => {
         <button className="mb-4 btn btn-primary mt-4 w-full font-montserrat font-extrabold">
           See More
         </button>
-        <div className="ad text-center bg-secondary h-72 mb-4">Ad</div>
+        <div className="ad text-center bg-secondary h-72 mb-16">Ad</div>
         <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
           Comic Reviews
         </h2>
@@ -44,7 +44,7 @@ const RightSection = () => {
         <button className="mb-4 btn btn-primary mt-4 w-full font-montserrat font-extrabold">
           See More
         </button>
-        <div className="ad text-center bg-secondary h-72 mb-4">Ad</div>
+        <div className="ad text-center bg-secondary h-72 mb-16">Ad</div>
         <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
           More
         </h2>
