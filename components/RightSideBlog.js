@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const RightSideBlog = () => {
   return (
@@ -11,12 +12,14 @@ const RightSideBlog = () => {
         height={200}
       />
       <div className="mt-2 px-2 border-primary border-l-4 cursor-pointer hover:text-primary transition-all w-fit">
-        Manga
+        <Link href="/category/manga">
+          <a>Manga</a>
+        </Link>
       </div>
       <h3 className="font-bangers my-1 tracking-wider text-xl text-white cursor-pointer hover:underline">
         Berserk: Manga Review (Spoliers)
       </h3>
-      <p className="text-sm text-primary-focus">40 Minutes Ago</p>
+      <p className="text-sm text-primary-focus cursor-text">40 Minutes Ago</p>
     </div>
   );
 };

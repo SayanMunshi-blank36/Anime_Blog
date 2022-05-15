@@ -2,6 +2,7 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import FeaturedPostCard from "./FeaturedPostCard";
+import Link from "next/link";
 
 const FeaturedPosts = () => {
   const responsive = {
@@ -73,7 +74,11 @@ const FeaturedPosts = () => {
         responsive={responsive}
         itemClass="px-4"
       >
-        <FeaturedPostCard />
+        <Link href="/blogpost/vagabond">
+          <a>
+            <FeaturedPostCard />
+          </a>
+        </Link>
       </Carousel>
     </div>
   );
