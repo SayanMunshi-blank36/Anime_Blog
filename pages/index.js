@@ -14,6 +14,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="container mx-auto p-8">
+        <h1 className="font-bangers text-6xl tracking-wider text-center mb-2">
+          Anilog
+        </h1>
+        <p className="font-montserrat mx-auto text-center mb-16 text-lg pb-2 border-b-2 border-b-error w-3/4">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur,
+          molestias!
+        </p>
         <FeaturedPosts />
         <section className={styles.home_grid}>
           <LatestBlogs />

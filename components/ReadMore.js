@@ -1,29 +1,28 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import FeaturedPostCard from "./FeaturedPostCard";
-import Link from "next/link";
+import ReadMoreCard from "./ReadMoreCard";
+
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 1024 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 1024, min: 768 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 768, min: 640 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 640, min: 0 },
+    items: 1,
+  },
+};
 
 const FeaturedPosts = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 1024 },
-      items: 1,
-    },
-    desktop: {
-      breakpoint: { max: 1024, min: 768 },
-      items: 1,
-    },
-    tablet: {
-      breakpoint: { max: 768, min: 640 },
-      items: 1,
-    },
-    mobile: {
-      breakpoint: { max: 640, min: 0 },
-      items: 1,
-    },
-  };
-
   const customLeftArrow = (
     <div className="absolute arrow-btn left-0 text-center py-3 cursor-pointer bg-pink-600 rounded-full">
       <svg
@@ -63,20 +62,25 @@ const FeaturedPosts = () => {
   );
 
   return (
-    <div>
-      <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
-        Featured
-      </h2>
+    <div className="mb-8">
       <Carousel
         infinite
-        CustomLeftArrow={customLeftArrow}
-        CustomRightArrow={customRightArrow}
+        customLeftArrow={customLeftArrow}
+        customRightArrow={customRightArrow}
         responsive={responsive}
         itemClass="px-4"
       >
-        <FeaturedPostCard />
-        <FeaturedPostCard />
-        <FeaturedPostCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
+        <ReadMoreCard />
       </Carousel>
     </div>
   );

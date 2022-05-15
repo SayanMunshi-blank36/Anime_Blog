@@ -30,36 +30,36 @@ const Navbar = () => {
               >
                 <li>
                   <Link href="/category/anime">
-                    <a>Anime</a>
+                    <div>Anime</div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/manga">
-                    <a>Manga</a>
+                    <div>Manga</div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/reviews">
-                    <a>Reviews</a>
+                    <div>Reviews</div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/lists">
-                    <a>Lists</a>
+                    <div>Lists</div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/comics">
-                    <a>Comics</a>
+                    <div>Comics</div>
                   </Link>
                 </li>
                 <li>
                   <Link href="/category/gaming">
-                    <a>Gaming</a>
+                    <div>Gaming</div>
                   </Link>
                 </li>
                 <li tabIndex="0">
-                  <a>
+                  <div>
                     More
                     <svg
                       className="fill-current"
@@ -70,16 +70,16 @@ const Navbar = () => {
                     >
                       <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                     </svg>
-                  </a>
+                  </div>
                   <ul className="p-2 bg-base-300 shadow-lg">
                     <li>
                       <Link href="/category/submenu1">
-                        <a>Submenu 1</a>
+                        <div>Submenu 1</div>
                       </Link>
                     </li>
                     <li>
                       <Link href="/category/submenu2">
-                        <a>Submenu 2</a>
+                        <div>Submenu 2</div>
                       </Link>
                     </li>
                   </ul>
@@ -87,43 +87,43 @@ const Navbar = () => {
               </ul>
             </div>
             <Link href="/">
-              <a className="btn btn-ghost normal-case text-xl">AniLog</a>
+              <div className="btn btn-ghost normal-case text-xl">AniLog</div>
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0 font-montserrat font-semibold">
               <li>
                 <Link href="/category/anime">
-                  <a>Anime</a>
+                  <div>Anime</div>
                 </Link>
               </li>
               <li>
                 <Link href="/category/manga">
-                  <a>Manga</a>
+                  <div>Manga</div>
                 </Link>
               </li>
               <li>
                 <Link href="/category/reviews">
-                  <a>Reviews</a>
+                  <div>Reviews</div>
                 </Link>
               </li>
               <li>
                 <Link href="/category/lists">
-                  <a>Lists</a>
+                  <div>Lists</div>
                 </Link>
               </li>
               <li>
                 <Link href="/category/comics">
-                  <a>Comics</a>
+                  <div>Comics</div>
                 </Link>
               </li>
               <li>
                 <Link href="/category/gaming">
-                  <a>Gaming</a>
+                  <div>Gaming</div>
                 </Link>
               </li>
               <li tabIndex="0">
-                <a>
+                <div>
                   More
                   <svg
                     className="fill-current"
@@ -134,16 +134,16 @@ const Navbar = () => {
                   >
                     <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
                   </svg>
-                </a>
+                </div>
                 <ul className="p-2 bg-base-300 shadow-lg">
                   <li>
                     <Link href="/category/submenu1">
-                      <a>Submenu 1</a>
+                      <div>Submenu 1</div>
                     </Link>
                   </li>
                   <li>
                     <Link href="/category/submenu2">
-                      <a>Submenu 2</a>
+                      <div>Submenu 2</div>
                     </Link>
                   </li>
                 </ul>
@@ -167,7 +167,7 @@ const Navbar = () => {
                 />
               </svg>
             </button>
-            <a className="btn">Get started</a>
+            <div className="btn">Get started</div>
           </div>
         </div>
       </nav>

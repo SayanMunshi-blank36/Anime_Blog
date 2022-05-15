@@ -9,129 +9,129 @@ const LatestBlogs = () => {
         Latest
       </h2>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
       <Link href="/blogpost/berserk">
-        <a>
+        <div>
           <EachBlog />
-        </a>
+        </div>
       </Link>
     </section>
   );
