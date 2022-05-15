@@ -23,7 +23,7 @@ const EachBlog = () => {
               </div>
             </div>
           </Link>
-          <h3 className="font-bangers my-1 tracking-wider text-3xl text-white cursor-pointer hover:underline">
+          <h3 className="font-bangers my-1 tracking-wider text-3xl cursor-pointer hover:underline">
             Berserk: Manga Review (Spoliers)
           </h3>
           <p className="font-montserrat text-sm cursor-text">

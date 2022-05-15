@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa";
 const BlogBody = () => {
   return (
     <div className="mt-8">
-      <h1 className="font-bangers text-4xl md:text-6xl tracking-wider text-white mb-4">
+      <h1 className="font-bangers text-4xl md:text-6xl tracking-wider mb-4">
         Berserk Review
       </h1>
       <p className="font-montserrat text-lg mb-4">
@@ -145,10 +145,10 @@ const BlogBody = () => {
         Category
       </h2>
       <div className="flex mb-4">
-        <p className="font-montserrat border-2 border-error text-white px-1 py-1 text-xl cursor-pointer rounded-md mr-4">
+        <p className="font-montserrat border-2 border-error px-1 py-1 text-xl cursor-pointer rounded-md mr-4">
           Manga
         </p>
-        <p className="font-montserrat border-2 border-error text-white px-1 py-1 text-xl cursor-pointer rounded-md mr-4">
+        <p className="font-montserrat border-2 border-error px-1 py-1 text-xl cursor-pointer rounded-md mr-4">
           Anime
         </p>
       </div>

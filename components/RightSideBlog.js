@@ -16,7 +16,7 @@ const RightSideBlog = () => {
           <div>Manga</div>
         </Link>
       </div>
-      <h3 className="font-bangers my-1 tracking-wider text-xl text-white cursor-pointer hover:underline">
+      <h3 className="font-bangers my-1 tracking-wider text-xl cursor-pointer hover:underline">
         Berserk: Manga Review (Spoliers)
       </h3>
       <div className="text-sm text-primary-focus cursor-text">

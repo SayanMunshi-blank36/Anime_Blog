@@ -10,7 +10,7 @@ const MoreBlogs = () => {
         width={150}
         height={100}
       />
-      <h3 className="ml-2 text-center font-bangers my-1 tracking-wider text-sm text-white cursor-pointer hover:underline">
+      <h3 className="ml-2 text-center font-bangers my-1 tracking-wider text-sm cursor-pointer hover:underline">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur,
         nobis?
       </h3>
