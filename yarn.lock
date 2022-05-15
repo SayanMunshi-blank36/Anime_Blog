@@ -420,7 +420,7 @@
   "resolved" "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   "version" "3.0.0"
 
-"daisyui@^2.14.3":
+"daisyui@^2.14.0", "daisyui@^2.14.3":
   "integrity" "sha512-EH6cLLaieInq81ACE8FxHsWLsH08sZ62zLxctIHTnLhn0eHvtHdLYZ6yngsy7yd43ZFOstzbyYY4q5xByZdaQQ=="
   "resolved" "https://registry.npmjs.org/daisyui/-/daisyui-2.14.3.tgz"
   "version" "2.14.3"
@@ -1566,7 +1566,12 @@
   "resolved" "https://registry.npmjs.org/quick-lru/-/quick-lru-5.1.1.tgz"
   "version" "5.1.1"
 
-"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@18.1.0":
+"react-daisyui@^2.0.1":
+  "integrity" "sha512-1JRJnkkyaPsCdMrZi5Zt6OD4hZ+x/3aMX/+T1wydq5WkpE9TTIQ4804andipsVrjzMhQ0Uc9INOvkTg8V23Zug=="
+  "resolved" "https://registry.npmjs.org/react-daisyui/-/react-daisyui-2.0.1.tgz"
+  "version" "2.0.1"
+
+"react-dom@^17.0.2 || ^18.0.0-0", "react-dom@>=16", "react-dom@18.1.0":
   "integrity" "sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-18.1.0.tgz"
   "version" "18.1.0"
@@ -1589,7 +1594,7 @@
   "resolved" "https://registry.npmjs.org/react-multi-carousel/-/react-multi-carousel-2.8.0.tgz"
   "version" "2.8.0"
 
-"react@*", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@18.1.0":
+"react@*", "react@^17.0.2 || ^18.0.0-0", "react@^18.1.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", "react@>=16", "react@18.1.0":
   "integrity" "sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   "version" "18.1.0"
@@ -1786,7 +1791,7 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
-"tailwindcss@^3.0", "tailwindcss@^3.0.24":
+"tailwindcss@^3.0", "tailwindcss@^3.0.23", "tailwindcss@^3.0.24":
   "integrity" "sha512-H3uMmZNWzG6aqmg9q07ZIRNIawoiEcNFKDfL+YzOPuPsXuDXxJxB9icqzLgdzKNwjG3SAro2h9SYav8ewXNgig=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.0.24.tgz"
   "version" "3.0.24"

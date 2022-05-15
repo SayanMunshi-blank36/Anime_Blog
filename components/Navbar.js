@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "next/link";
+import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
 
-const Navbar = () => {
+const Navbar = ({ mode, modeSelected }) => {
   return (
     <>
-      <nav className="navbar bg-base-300 shadow-lg sticky top-0 z-30">
+      <nav className="navbar bg-base-300 shadow-lg sticky top-0 z-50">
         <div className="navbar bg-base-300 sticky top-0 container mx-auto w-full">
           <div className="navbar-start">
             <div className="dropdown">
@@ -151,6 +152,17 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="navbar-end">
+            {modeSelected === "halloween" ? (
+              <BsFillSunFill
+                onClick={() => mode("bumblebee")}
+                className="mx-2 text-2xl cursor-pointer"
+              />
+            ) : (
+              <BsFillMoonFill
+                onClick={() => mode("halloween")}
+                className="mx-2 text-2xl cursor-pointer"
+              />
+            )}
             <button className="btn btn-ghost btn-circle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -167,7 +179,7 @@ const Navbar = () => {
                 />
               </svg>
             </button>
-            <div className="btn">Get started</div>
+            <div className="btn btn-primary">Subscribe</div>
           </div>
         </div>
       </nav>
