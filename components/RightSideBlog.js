@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const RightSideBlog = () => {
   return (
-    <div className="px-4 my-8">
+    <div className="md:px-4 flex flex-col items-center justify-center my-8">
       <Image
         className="cursor-pointer hover:opacity-90"
         src="/393055.png"

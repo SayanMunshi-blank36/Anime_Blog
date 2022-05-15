@@ -22,7 +22,7 @@ const RightSection = () => {
         <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
           Manga Reviews
         </h2>
-        <div className="mx-2 manga_reviews grid grid-cols-2 gap-6">
+        <div className="mx-2 manga_reviews md:place-items-center grid grid-cols-2 gap-6">
           <MangaReviews />
           <MangaReviews />
           <MangaReviews />
@@ -35,7 +35,7 @@ const RightSection = () => {
         <h2 className="text-3xl font-bangers text-neutral-content border-b-4 border-error w-fit tracking-wider mb-4">
           Comic Reviews
         </h2>
-        <div className="mx-2 manga_reviews grid grid-cols-2 gap-6">
+        <div className="mx-2 manga_reviews md:place-items-center grid grid-cols-2 gap-6">
           <ComicReviews />
           <ComicReviews />
           <ComicReviews />
