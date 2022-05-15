@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Navbar = () => {
   return (
@@ -28,22 +29,34 @@ const Navbar = () => {
                 className="menu menu-compact dropdown-content mt-3 p-2 rounded-box w-72 bg-base-300 shadow-lg font-montserrat font-semibold"
               >
                 <li>
-                  <a>Anime</a>
+                  <Link href="/category/anime">
+                    <a>Anime</a>
+                  </Link>
                 </li>
                 <li>
-                  <a>Manga</a>
+                  <Link href="/category/manga">
+                    <a>Manga</a>
+                  </Link>
                 </li>
                 <li>
-                  <a>Reviews</a>
+                  <Link href="/category/reviews">
+                    <a>Reviews</a>
+                  </Link>
                 </li>
                 <li>
-                  <a>Lists</a>
+                  <Link href="/category/lists">
+                    <a>Lists</a>
+                  </Link>
                 </li>
                 <li>
-                  <a>Comics</a>
+                  <Link href="/category/comics">
+                    <a>Comics</a>
+                  </Link>
                 </li>
                 <li>
-                  <a>Gaming</a>
+                  <Link href="/category/gaming">
+                    <a>Gaming</a>
+                  </Link>
                 </li>
                 <li tabIndex="0">
                   <a>
@@ -60,36 +73,54 @@ const Navbar = () => {
                   </a>
                   <ul className="p-2 bg-base-300 shadow-lg">
                     <li>
-                      <a>Submenu 1</a>
+                      <Link href="/category/submenu1">
+                        <a>Submenu 1</a>
+                      </Link>
                     </li>
                     <li>
-                      <a>Submenu 2</a>
+                      <Link href="/category/submenu2">
+                        <a>Submenu 2</a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
               </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl">AniLog</a>
+            <Link href="/">
+              <a className="btn btn-ghost normal-case text-xl">AniLog</a>
+            </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal p-0 font-montserrat font-semibold">
               <li>
-                <a>Anime</a>
+                <Link href="/category/anime">
+                  <a>Anime</a>
+                </Link>
               </li>
               <li>
-                <a>Manga</a>
+                <Link href="/category/manga">
+                  <a>Manga</a>
+                </Link>
               </li>
               <li>
-                <a>Reviews</a>
+                <Link href="/category/reviews">
+                  <a>Reviews</a>
+                </Link>
               </li>
               <li>
-                <a>Lists</a>
+                <Link href="/category/lists">
+                  <a>Lists</a>
+                </Link>
               </li>
               <li>
-                <a>Comics</a>
+                <Link href="/category/comics">
+                  <a>Comics</a>
+                </Link>
               </li>
               <li>
-                <a>Gaming</a>
+                <Link href="/category/gaming">
+                  <a>Gaming</a>
+                </Link>
               </li>
               <li tabIndex="0">
                 <a>
@@ -106,10 +137,14 @@ const Navbar = () => {
                 </a>
                 <ul className="p-2 bg-base-300 shadow-lg">
                   <li>
-                    <a>Submenu 1</a>
+                    <Link href="/category/submenu1">
+                      <a>Submenu 1</a>
+                    </Link>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <Link href="/category/submenu2">
+                      <a>Submenu 2</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
