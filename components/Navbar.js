@@ -8,10 +8,10 @@ import {
   BsInstagram,
 } from "react-icons/bs";
 
-const Navbar = ({ mode, modeSelected }) => {
+const Navbar = ({ mode, modeSelected, willSearch }) => {
   return (
     <>
-      <nav className="navbar bg-base-300 shadow-lg sticky top-0 z-50">
+      <nav className="navbar bg-base-300 shadow-lg sticky top-0 z-40">
         <div className="navbar bg-base-300 sticky top-0 container mx-auto w-full">
           <div className="navbar-start">
             <div className="dropdown">
@@ -169,7 +169,10 @@ const Navbar = ({ mode, modeSelected }) => {
                 className="mx-2 text-2xl cursor-pointer"
               />
             )}
-            <button className="btn btn-ghost btn-circle">
+            <button
+              className="btn btn-ghost btn-circle"
+              onClick={() => willSearch(true)}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
