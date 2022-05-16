@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
-  const [modeSelected, setModeSelected] = useState("bumblebee");
+  const [modeSelected, setModeSelected] = useState("halloween");
 
   const mode = (preferredMode) => {
     console.log(preferredMode);

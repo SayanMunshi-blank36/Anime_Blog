@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs";
+import {
+  BsFillSunFill,
+  BsFillMoonFill,
+  BsTwitter,
+  BsReddit,
+  BsInstagram,
+} from "react-icons/bs";
 
 const Navbar = ({ mode, modeSelected }) => {
   return (
@@ -179,7 +185,11 @@ const Navbar = ({ mode, modeSelected }) => {
                 />
               </svg>
             </button>
-            <div className="btn btn-primary">Subscribe</div>
+            <div className="flex p-2 rounded-md text-gray-900 bg-primary">
+              <BsTwitter className="mx-1 text-xl md:text-3xl hover:text-error cursor-pointer transition-all" />
+              <BsReddit className="mx-1 text-xl md:text-3xl hover:text-error cursor-pointer transition-all" />
+              <BsInstagram className="mx-1 text-xl md:text-3xl hover:text-error cursor-pointer transition-all" />
+            </div>
           </div>
         </div>
       </nav>
