@@ -10,12 +10,10 @@ function MyApp({ Component, pageProps }) {
   const [search, setSearch] = useState(false);
 
   const mode = (preferredMode) => {
-    console.log(preferredMode);
     setModeSelected(preferredMode);
   };
 
   const willSearch = (searchChoise) => {
-    console.log(searchChoise);
     setSearch(searchChoise);
   };
 
