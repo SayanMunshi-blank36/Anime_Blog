@@ -34,13 +34,9 @@ const EachBlog = () => {
           </p>
         </div>
         <div className="each_blog_bottom flex">
-          <Link href="/">
-            <div>
-              <p className="cursor-pointer text-sm text-primary mr-4">
-                By Blank36
-              </p>
-            </div>
-          </Link>
+          <p className="cursor-text font-bold text-sm text-primary mr-4">
+            By Blank36
+          </p>
           <p className="text-sm text-primary-focus cursor-text">
             40 Minutes Ago
           </p>

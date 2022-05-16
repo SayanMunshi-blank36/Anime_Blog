@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { FaFacebookF, FaTwitter } from "react-icons/fa";
 
 const BlogBody = () => {
@@ -145,12 +146,16 @@ const BlogBody = () => {
         Category
       </h2>
       <div className="flex mb-4">
-        <p className="font-montserrat border-2 border-error px-1 py-1 text-xl cursor-pointer rounded-md mr-4">
-          Manga
-        </p>
-        <p className="font-montserrat border-2 border-error px-1 py-1 text-xl cursor-pointer rounded-md mr-4">
-          Anime
-        </p>
+        <Link href="/category/manga">
+          <p className="font-montserrat border-2 border-error px-1 py-1 text-xl cursor-pointer rounded-md mr-4 hover:bg-error transition-all">
+            Manga
+          </p>
+        </Link>
+        <Link href="/category/anime">
+          <p className="font-montserrat border-2 border-error px-1 py-1 text-xl cursor-pointer rounded-md mr-4 hover:bg-error transition-all">
+            Anime
+          </p>
+        </Link>
       </div>
       <div className="share mt-8">
         <h2 className="font-bangers border-b-4 border-b-error w-fit text-3xl tracking-wider mb-2">

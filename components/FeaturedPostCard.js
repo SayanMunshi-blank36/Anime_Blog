@@ -12,7 +12,7 @@ const FeaturedPostCard = () => {
           }}
         />
         <div className="absolute rounded-lg bg-center bg-gradient-to-b opacity-50 from-gray-400 via-gray-700 to-black w-full h-screen" />
-        <div className="flex flex-col rounded-lg p-4 items-center justify-center absolute w-full h-full">
+        <div className="flex flex-col rounded-lg p-4 items-center justify-center absolute w-full h-full text-white">
           <p className="mb-4 text-shadow font-semibold text-xl cursor-text">
             May 12, 2022
           </p>
@@ -27,13 +27,9 @@ const FeaturedPostCard = () => {
           </p>
 
           <div className="flex items-center absolute bottom-5 w-full justify-center">
-            <Link href="/">
-              <div>
-                <p className="inline align-middle text-shadow ml-2 font-xl font-montserrat cursor-pointer">
-                  By Blank36
-                </p>
-              </div>
-            </Link>
+            <p className="inline align-middle text-shadow ml-2 font-xl font-montserrat cursor-text">
+              By Blank36
+            </p>
           </div>
         </div>
       </div>
